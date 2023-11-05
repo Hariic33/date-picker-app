@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Datepicker</title>
+    <link rel="stylesheet" href="datepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="datepicker-wrapper">
+        <label for="datepicker-input">Select a Date:</label>
+        <input type="text" id="datepicker-input">
+        <label for="date-format-dropdown">Select Date Format:</label>
+        <select id="date-format-dropdown" name="date-format-dropdown">
+            <option value="default">Default (DD/MM/YYYY)</option>
+            <option value="iso8601">ISO 8601 (YYYY-MM-DD)</option>
+            <option value="short">Short (D M, YY)</option>
+            <option value="medium">Medium (D MM, YY)</option>
+            <option value="full">Full (DD, D MM, YY)</option>
+            <option value="withtext">With Text (Day D of MM in the year YY)</option>
+        </select>
+        <div id="datepicker-container">
+            <div id="calendar-header">
+                <i id="prev-month" class="fas fa-chevron-left"></i>
+                <span id="current-month-year">Month Year</span>
+                <i id="next-month" class="fas fa-chevron-right"></i>
+            </div>
+            <div id="calendar">
+            </div>
+        </div>
+    </div>
+    <script src="datePicker.js"></script>
+</body>
+
+</html>

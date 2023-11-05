@@ -14,7 +14,7 @@ A simple custom datepicker app built with HTML, CSS, and JavaScript.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Hariic33/date-picker-app.gi
+   git clone https://github.com/Hariic33/date-picker-app.git
 
 2. Open the datePicker.html file in a web browser.
 

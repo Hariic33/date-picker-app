@@ -21,3 +21,5 @@ A simple custom datepicker app built with HTML, CSS, and JavaScript.
 3. Click on the input field to show the datepicker.
 
 4. Select a date, and it will be displayed in the input field in the selected format.
+
+5. You can change the date format by selecting a different option from the "Select Date Format" dropdown.
